@@ -4,4 +4,10 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
+module Sixdegrees
+  class Application < Rails::Application
+    include Rake::DSL
+  end
+end
+
 Sixdegrees::Application.load_tasks

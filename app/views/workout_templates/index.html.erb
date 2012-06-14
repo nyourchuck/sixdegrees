@@ -1,0 +1,21 @@
+<h1>Listing workout_templates</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @workout_templates.each do |workout_template| %>
+  <tr>
+    <td><%= link_to 'Show', workout_template %></td>
+    <td><%= link_to 'Edit', edit_workout_template_path(workout_template) %></td>
+    <td><%= link_to 'Destroy', workout_template, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Workout template', new_workout_template_path %>
