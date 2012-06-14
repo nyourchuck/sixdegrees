@@ -1,0 +1,22 @@
+total 128
+-rw-r--r--   1 nate  staff     21 Jun 13 18:54 README.md
+drwxr-xr-x   3 nate  staff    102 Jun 13 18:55 vendor
+drwxr-xr-x   6 nate  staff    204 Jun 13 18:55 tmp
+drwxr-xr-x   8 nate  staff    272 Jun 13 18:55 test
+drwxr-xr-x   3 nate  staff    102 Jun 13 18:55 script
+drwxr-xr-x   6 nate  staff    204 Jun 13 18:55 log
+drwxr-xr-x   3 nate  staff    102 Jun 13 18:55 lib
+-rw-r--r--   1 nate  staff    160 Jun 13 18:55 config.ru
+drwxr-xr-x   7 nate  staff    238 Jun 13 18:55 app
+-rw-r--r--   1 nate  staff   9126 Jun 13 18:55 README
+drwxr-xr-x  10 nate  staff    340 Jun 13 19:16 public
+drwxr-xr-x   9 nate  staff    306 Jun 13 19:29 spec
+-rw-r--r--@  1 nate  staff    362 Jun 13 19:53 Rakefile
+-rw-r--r--   1 nate  staff   1168 Jun 13 20:42 models.dot
+drwxr-xr-x   4 nate  staff    136 Jun 13 20:44 doc
+drwxr-xr-x   6 nate  staff    204 Jun 13 20:51 db
+-rw-r--r--   1 nate  staff  21997 Jun 13 21:52 0001-adding-exercise_set-and-modified-rep.patch
+drwxr-xr-x  10 nate  staff    340 Jun 13 21:53 config
+-rw-r--r--   1 nate  staff   4511 Jun 13 21:53 Gemfile.lock
+-rw-r--r--   1 nate  staff   1191 Jun 13 21:53 Gemfile
+-rw-r--r--   1 nate  staff      0 Jun 13 21:55 testing.txt
