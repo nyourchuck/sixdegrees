@@ -31,7 +31,6 @@ doc/db2_queries/*.del
 *~
 .#*
 *#*#
-config/database.yml
 .bundle
 vendor/bundle
 .idea
