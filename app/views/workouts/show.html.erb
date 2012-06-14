@@ -1,4 +1,10 @@
+
+<h1><%= @workout.name%></h1>
 <p id="notice"><%= notice %></p>
+
+<p><%= @workout.exercise_count %> exercises</p>
+<% for exercise %>
+
 
 
 <%= link_to 'Edit', edit_workout_path(@workout) %> |

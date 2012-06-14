@@ -4,7 +4,7 @@ class CreateWorkouts < ActiveRecord::Migration
       t.integer :coach_id
       t.integer :goal_id
       t.integer :athlete_id
-      t.integer :name
+      t.string :name
       t.date :recorded_on
       t.timestamps
     end

@@ -1,4 +1,6 @@
 Sixdegrees::Application.routes.draw do
+  resources :reps
+
   resources :coaches
 
   resources :teams

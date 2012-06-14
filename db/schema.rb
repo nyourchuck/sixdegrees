@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(:version => 20120614004543) do
     t.integer  "coach_id"
     t.integer  "goal_id"
     t.integer  "athlete_id"
-    t.integer  "name"
+    t.string   "name"
     t.date     "recorded_on"
     t.datetime "created_at"
     t.datetime "updated_at"

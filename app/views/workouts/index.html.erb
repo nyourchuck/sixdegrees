@@ -9,7 +9,7 @@
 
 <% @workouts.each do |workout| %>
   <tr>
-    <td><%= link_to 'Show', workout %></td>
+    <td><%= link_to workout.name, workout %></td>
     <td><%= link_to 'Edit', edit_workout_path(workout) %></td>
     <td><%= link_to 'Destroy', workout, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

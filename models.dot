@@ -1,0 +1,14 @@
+digraph models_diagram {
+	graph[overlap=false, splines=true]
+	"Athlete" [shape=Mrecord, label="{Athlete|created_at :datetime\lupdated_at :datetime\l}"]
+	"Coach" [shape=Mrecord, label="{Coach|name :string\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Exercise" [shape=Mrecord, label="{Exercise|name :string\lcategory :string\lreps :integer\lsets :integer\ldistance :decimal\ldistance_units :string\lweight :decimal\lweight_units :string\ltime :decimal\ltime_units :string\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"Team" [shape=Mrecord, label="{Team|created_at :datetime\lupdated_at :datetime\l}"]
+	"Workout" [shape=Mrecord, label="{Workout|name :integer\lrecorded_on :date\lcreated_at :datetime\lupdated_at :datetime\l}"]
+	"WorkoutTemplate" [shape=Mrecord, label="{WorkoutTemplate|created_at :datetime\lupdated_at :datetime\l}"]
+	"Athlete" -> "Workout" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Coach" -> "Athlete" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Coach" -> "Workout" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Team" -> "Athlete" [arrowtail=crow, arrowhead=dot, dir=both]
+	"Workout" -> "Exercise" [arrowtail=crow, arrowhead=dot, dir=both]
+}
