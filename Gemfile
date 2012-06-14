@@ -7,10 +7,10 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 
-gem 'mysql2', '< 0.3'
+#gem 'mysql2', '< 0.3'
 
 gem "kaminari"
-gem 'pg'
+#gem 'pg'
 
 gem 'aasm'
 gem 'devise'
